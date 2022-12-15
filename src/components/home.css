@@ -1,0 +1,84 @@
+/* html{
+    width:100%;
+    height:100%;
+} */
+body{
+    align-items: center;
+    height: 100%; 
+    width:100%;
+    background-image: url(../assets/wine3.png);
+}
+.card-deck{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 0.5rem;
+}
+.card{
+    height: 100%;
+    width: 100%;
+}
+/* *, ::after, ::before {
+    box-sizing: border-box;
+} */
+
+ul {
+    width: 100%;
+    padding: 5px 0px;
+    box-sizing: border-box;
+}
+
+.apps{
+    height:"100px";
+    
+}
+
+.apps li{
+    list-style: none;
+    /* display: inline; */
+    /* justify-items: center;
+    align-items: center; */
+    display: inline-block;
+    margin: 10px;
+    padding: 0px;
+}
+.announcement-content{
+    height: "1.2rem";
+    border-radius: "0.13 rem";
+    display: "flex";
+    -webkit-box-align: "center";
+    align-items: "center";
+    margin: "5px 10px";
+    background: "#c1d6e7";
+}
+marquee {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(94, 97, 97);
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    box-sizing: border-box;
+    background-color: rgb(214, 205, 205);
+    border-radius: 5px;
+  }
+
+footer li{
+    list-style: none;
+    /* float: left; */
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    
+}
+/* .wholebody{
+    align-items: center;
+    width: 100%;
+} */
